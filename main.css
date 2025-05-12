@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+canvas {
+  background-color: white;
+}
+
+#menu {
+  background-color: rgba(20,20,20,0.5);
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px;
+  font-family: 'Oxanium', serif;
+  font-size:50px;
+  color: white;
+}
+
+#start {
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 75px;
+  font-family: 'Oxanium', serif;
+  font-size:75px;
+  color: white;
+}
+
+label{
+  color:white;
+  font-family: 'Oxanium', serif;
+  font-size: 25px;
+  margin: 5px;
+}
+
+input{
+  background-color: rgba(100,100,100,1);
+  border-radius: 5px 5px 5px 5px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Oxanium', serif;
+}
+
+#endBanner{
+  text-align: center;
+  background-color: rgba(1,1,1,0);
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+}
+
+#start:hover{
+  color:grey;
+}
+
+#help:hover {
+  color:grey;
+}
+
+#credits:hover{
+  color:grey;
+}
+
+#preview {
+  margin: 50px;
+  margin-top: 50px;
+  font-family: 'Oxanium', serif;
+  font-size:35px;
+  color: white;
+}
+
+#preview:hover{
+  color:grey;
+}
+
+#highScoreLabel {
+  margin: 50px;
+  margin-bottom: 0px;
+  font-family: 'Oxanium', serif;
+  font-size:50px;
+  color: white;
+}
+
+.bottomText {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.info {
+  margin: 50px;
+  display: inline;
+  font-family: 'Oxanium', serif;
+  font-size:50px;
+  color: white;
+}
+
+#divider {
+  height: 100px;
+}
+
+.noselect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content= "user-scalable=no">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <title>MineSweeper</title>
+  </head>
+  <body>
+    <div id="endBanner">
+      <h1 id="timeText"  class="noselect"></h1>
+      <h1 id="continueText"  class="noselect">Click to continue</h1>
+    </div>
+
+    <div id="menu">
+      <h1 class="noselect">Minesweeper</h1>
+
+      <h2 id="start" class="noselect">Start</h2>
+      <label>Size</label>
+      <br>
+      <input id="velikostSlider" type="range" min="5" max="25" name="" value="9">
+      <br><br>
+      <label>Difficulty</label>
+      <br>
+
+      <input id="bomboSlider" min="1" type="range" name="" value="9">
+      <br><br><br><br>
+      <h2 id="preview" class="noselect">Preview</h2>
+
+      <div class="bottomText">
+        <div class="info noselect" id="help">Help</div>
+      </div>
+
+
+    </div>
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript" src="main.js">
+
+    </script>
+  </body>
+</html>
