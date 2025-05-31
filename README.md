@@ -2,8 +2,8 @@
 From scratch, vanilla js, plain html/css rendition of the ubiquitous game - minesweeper
 
 ## Info
-Created circa 2020 as a personal project
-Didn't want to mess with this relic of a project at the time of creating this repo so layouting is a little broken - doesnt work well on smaller window widths - and I dont intend to fix it
+Created circa 2020 as a personal project.
+Didn't want to mess with this relic of a project at the time of creating this repo and so some layouting bugs remain - doesnt work well on smaller window widths - and I dont intend to fix it
 
 ## Features
 - Adjustable grid size and difficulty
