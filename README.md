@@ -8,6 +8,7 @@ Didn't want to mess with this relic of a project at the time of creating this re
 ## Features
 - Adjustable grid size and difficulty
 - Live preview based on grid size and difficulty
+- Auto clear of safe neighbouring tiles
 - Guaranteed safe first click
 - Handmade tile set and sounds
 - Game timer, displays time in ms after the game is won
