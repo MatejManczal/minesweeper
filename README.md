@@ -15,3 +15,7 @@ Didn't want to mess with this relic of a project at the time of creating this re
 ## Controls
 - CTRL + Left Click to place a flag
 - Left Click to reveal a tile
+
+[Try it yourself](https://matejmanczal.github.io/minesweeper/)
+
+![app preview](/preview.png)
